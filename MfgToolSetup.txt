@@ -1,0 +1,117 @@
+==================================================================
+list of modules - settings are taken from this table
+==================================================================
+BOARDS choice   _FLASH 
+------+---------+-------------------------------------------------
+BOARDS TXUL-0010 NAND  
+BOARDS TXUL-5010 NAND  
+BOARDS TXUL-0011 MMC   
+BOARDS TXUL-5011 MMC   
+BOARDS TXUL-8013 MMC   
+BOARDS TX6S-8034 NAND  
+BOARDS TX6S-8035 MMC   
+BOARDS TX6S-8134 NAND  
+BOARDS TX6S-8135 MMC   
+BOARDS TX6U-8010 NAND  
+BOARDS TX6U-8030 NAND  
+BOARDS TX6U-8110 NAND  
+BOARDS TX6U-8130 NAND  
+BOARDS TX6U-8033 MMC   
+BOARDS TX6U-8133 MMC   
+BOARDS TX6Q-1010 NAND  
+BOARDS TX6Q-1030 NAND  
+BOARDS TX6Q-1110 NAND  
+BOARDS TX6Q-1130 NAND  
+BOARDS TX6Q-1036 MMC   
+BOARDS TX6Q-8037 MMC   
+BOARDS TX6Q-8137 MMC   
+BOARDS TX28-4031 NAND
+
+==================================================================
+DTB - settings are taken from this table
+==================================================================
+DTB choice   _FNAME_MFGDTB         _FNAME_DTB           
+---+---------+---------------------+------------------------------
+DTB TXUL-0010 imx6ul-tx6ul-0010.dtb imx6ul-tx6ul-0010.dtb 
+DTB TXUL-5010 imx6ul-tx6ul-0010.dtb imx6ul-tx6ul-0010.dtb 
+DTB TXUL-0011 imx6ul-tx6ul-0011.dtb imx6ul-tx6ul-0011.dtb 
+DTB TXUL-5011 imx6ul-tx6ul-0011.dtb imx6ul-tx6ul-0011.dtb 
+DTB TXUL-8013 imx6ul-tx6ul-0011.dtb imx6ull-txul-8013.dtb
+DTB TX6S-8034 imx6dl-tx6s-8034.dtb  imx6dl-tx6s-8034.dtb  
+DTB TX6S-8035 imx6dl-tx6s-8035.dtb  imx6dl-tx6s-8035.dtb  
+DTB TX6S-8134 imx6dl-tx6s-8034.dtb  imx6dl-tx6s-8134.dtb  
+DTB TX6S-8135 imx6dl-tx6s-8035.dtb  imx6dl-tx6s-8135.dtb  
+DTB TX6U-8010 imx6dl-tx6u-801x.dtb  imx6dl-tx6u-801x.dtb  
+DTB TX6U-8030 imx6dl-tx6u-801x.dtb  imx6dl-tx6u-801x.dtb  
+DTB TX6U-8033 imx6dl-tx6u-8033.dtb  imx6dl-tx6u-8033.dtb  
+DTB TX6U-8110 imx6dl-tx6u-811x.dtb  imx6dl-tx6u-811x.dtb  
+DTB TX6U-8130 imx6dl-tx6u-811x.dtb  imx6dl-tx6u-811x.dtb  
+DTB TX6U-8133 imx6dl-tx6u-8133.dtb  imx6dl-tx6u-8133.dtb  
+DTB TX6Q-1010 imx6q-tx6q-1010.dtb   imx6q-tx6q-1010.dtb   
+DTB TX6Q-1030 imx6q-tx6q-1010.dtb   imx6q-tx6q-1010.dtb   
+DTB TX6Q-1036 imx6q-tx6q-1036.dtb   imx6q-tx6q-1036.dtb   
+DTB TX6Q-1110 imx6q-tx6q-1110.dtb   imx6q-tx6q-1110.dtb   
+DTB TX6Q-1130 imx6q-tx6q-1110.dtb   imx6q-tx6q-1110.dtb   
+DTB TX6Q-8037 imx6q-tx6q-1036.dtb   imx6qp-tx6qp-8037.dtb
+DTB TX6Q-8137 imx6q-tx6q-1036.dtb   imx6qp-tx6qp-8137.dtb
+DTB TX28-4031 imx28-tx28.dtb        imx28-tx28.dtb
+
+==================================================================
+UBOOT - settings are taken from this table part2: 
+==================================================================
+UBOOT choice   _FNAME_UBOOT          _FNAME_MFGUBOOT
+-----+---------+---------------------+----------------------------
+UBOOT TXUL-0010 u-boot-tx6ul-0010.bin u-boot-tx6ul-0010_mfg.bin
+UBOOT TXUL-5010 u-boot-tx6ul-0010.bin u-boot-tx6ul-0010_mfg.bin
+UBOOT TXUL-0011 u-boot-tx6ul-0011.bin u-boot-tx6ul-0011_mfg.bin
+UBOOT TXUL-5011 u-boot-tx6ul-0011.bin u-boot-tx6ul-0011_mfg.bin
+UBOOT TXUL-8013 u-boot-tx6ul-8013.bin u-boot-tx6ul-8013_mfg.bin
+UBOOT TX6S-8034 u-boot-tx6s-8034.bin  u-boot-tx6s-8034_mfg.bin  
+UBOOT TX6S-8035 u-boot-tx6s-8035.bin  u-boot-tx6s-8035_mfg.bin  
+UBOOT TX6S-8134 u-boot-tx6s-8134.bin  u-boot-tx6s-8134_mfg.bin  
+UBOOT TX6S-8135 u-boot-tx6s-8135.bin  u-boot-tx6s-8135_mfg.bin  
+UBOOT TX6U-8010 u-boot-tx6u-80x0.bin  u-boot-tx6u-80x0_mfg.bin  
+UBOOT TX6U-8030 u-boot-tx6u-80x0.bin  u-boot-tx6u-80x0_mfg.bin  
+UBOOT TX6U-8033 u-boot-tx6u-8033.bin  u-boot-tx6u-8033_mfg.bin  
+UBOOT TX6U-8110 u-boot-tx6u-81x0.bin  u-boot-tx6u-81x0_mfg.bin  
+UBOOT TX6U-8130 u-boot-tx6u-81x0.bin  u-boot-tx6u-81x0_mfg.bin  
+UBOOT TX6U-8133 u-boot-tx6u-8133.bin  u-boot-tx6u-8133_mfg.bin  
+UBOOT TX6Q-1010 u-boot-tx6q-10x0.bin  u-boot-tx6q-10x0_mfg.bin  
+UBOOT TX6Q-1030 u-boot-tx6q-10x0.bin  u-boot-tx6q-10x0_mfg.bin  
+UBOOT TX6Q-1036 u-boot-tx6q-1036.bin  u-boot-tx6q-1036_mfg.bin  
+UBOOT TX6Q-1110 u-boot-tx6q-11x0.bin  u-boot-tx6q-11x0_mfg.bin  
+UBOOT TX6Q-1130 u-boot-tx6q-11x0.bin  u-boot-tx6q-11x0_mfg.bin  
+UBOOT TX6Q-8037 u-boot-tx6qp-8037.bin u-boot-tx6qp-8037_mfg.bin  
+UBOOT TX6Q-8137 u-boot-tx6qp-8137.bin u-boot-tx6qp-8137_mfg.bin  
+UBOOT TX28-4031 u-boot-tx28-40x1.sb   u-boot-tx28_mfg.sb
+
+==================================================================
+Manufacturing settings
+==================================================================
+TXMOD choice _PROF _ADDRBASE _FNAME_MFGKRNL  
+-----+------+------+---------+------------------------------------
+TXMOD TXUL   TX6UL  0x8      uImage_txul-mfg
+TXMOD TX6S   TX6    0x1      uImage_tx6-mfg
+TXMOD TX6U   TX6    0x1      uImage_tx6-mfg
+TXMOD TX6Q   TX6    0x1      uImage_tx6-mfg
+TXMOD TX28   TX28   0x4      uImage_tx28
+
+==================================================================
+Factory OS - settings are taken from this table:
+==================================================================
+OS choice    _FNAME_ROOTFS         _FNAME_MODULES     _FNAME_KRNL
+--+----------+---------------------+------------------+-----------
+OS TX6UL-NAND rootfs_txul.tgz       modules-imx6ul.tgz uImage_txul 
+OS TX6UL-MMC  rootfs_txul-emmc.tgz  modules-imx6ul.tgz uImage_txul 
+OS TX6-NAND   rootfs_tx6.tgz        modules-imx6.tgz   uImage_tx6 
+OS TX6-MMC    rootfs_tx6-emmc.tgz   modules-imx6.tgz   uImage_tx6 
+OS TX28-NAND  rootfs_tx28_ubi.image none               uImage_tx28
+
+==================================================================
+MISC - settings are taken from this table:
+==================================================================
+MISC choice _FNAME_RAMFS           _FNAME_LOGO
+----+------+-----------------------+------------------------------
+MISC TX6UL  initramfs.cpio.gz.uboot 640x480x256.bmp
+MISC TX6    initramfs.cpio.gz.uboot 640x480x256.bmp
+MISC TX28   initramfs.cpio.gz.uboot 640x480x256.bmp
